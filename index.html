@@ -6,39 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/1a6cc81ef3.js" crossorigin="anonymous"></script>
     <title>Rishabh Wala</title>
 </head>
 
-<body class="bg-sky-200">
-    <nav class="bg-sky-300 md:flex justify-between md:items-center px-8 py-4">
-        <div class="flex justify-between items-center">
-            <div>
-                <img src="./assets/Kirti+Logo.png" class="max-h-16 inline" alt="logo" srcset="">
-            </div>
-
-            
-            <div id="hamburger-menu" class="text-3xl cursor-pointer md:hidden block transform transition-all ease-in active">
-                <!-- <ion-icon name="menu"  ></ion-icon> -->
-                <i id="menu" class="fa-solid fa-bars active"></i>
-            </div>
-
+<body class="bg-slate-800 text-blue-500 h-screen overflow-hidden">
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between relative z-50">
+        <div class="flex justify-between items-center border border-red-300">
+          <span class="text-2xl font-satisfy cursor-pointer">
+            <img class="h-20 inline"
+              src="./assets/Kirti+Logo.png">
+            tailwind
+          </span>
+    
+          <span class="relative cursor-pointer mx-2 md:hidden block z-30">
+            <button class="hamburger hamburger--squeeze " type="button">
+                <span class="hamburger-box ">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>  
+          </span>
         </div>
-
-        <ul class="md:flex md:space-x-10 text-xl justify-end md:items-center md:transform-none md:translate-y-0 md:static md:bg-transparent z-[-1] md:z-auto md:bg-none absolute left-0 w-full text-center min-h-full md:pt-0 pt-4
-            transform -translate-y-full transition ease-in duration-300 ">
-            <li class="md:mt-0 mt-8 "><a href="#">Overview</a></li>
-            <li class="md:mt-0 mt-8"><a href="#">Potraits</a></li>
-            <li class="md:mt-0 mt-8"><a href="#">Film</a></li>
-            <li class="md:mt-0 mt-8"><a href="#">Events</a></li>
-            <li class="md:mt-0 mt-8"><a href="#">Magazines</a></li>
-            <li class="md:mt-0 mt-8 flex justify-center"><a class="" href="#"><img src="./assets/icons8-instagram.svg"
-                        alt="" class="max-h-8" /></a></li>
+    
+        <ul class="md:flex md:items-center md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 -top-full transition-all ease-in duration-300">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">SERVICE</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl hover:text-cyan-500 duration-500">BLOG'S</a>
+          </li>
         </ul>
 
     </nav>
+    
+
+    <section class="relative -z-20">
+        <div class="text-center my-8">
+            <h1 class="font-satisfy text-5xl mb-3">My Gallery</h1>
+            <div class="bg-gradient-to-r from-violet-500 to-pink-500 h-1 max-w-sm mx-auto rounded-full"></div>
+        </div>
+        <div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 </body>
 
 </html>
