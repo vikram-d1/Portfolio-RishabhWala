@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" />
     <script src="https://kit.fontawesome.com/1a6cc81ef3.js" crossorigin="anonymous"></script>
     <title>Rishabh Wala</title>
 </head>
 
-<body class="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black text-blue-500 h-screen w-screen overflow-hidden">
+<body class="bg-white text-blue-500 h-screen md:p-8 p-5 overflow-x-hidden">
     <nav class="p-5 bg-white md:flex md:items-center md:justify-between ">
         <div class="flex justify-between items-center">
           <span class=" font-satisfy cursor-pointer flex justify-center items-center">
@@ -22,7 +23,7 @@
             <span class="ml-6 text-4xl inline items-center max-[870px]:hidden mt-1 ">Rishabh wala</span>
           </span>
     
-          <span class="relative cursor-pointer mx-2 md:hidden block z-10">
+          <span class="relative cursor-pointer md:hidden block z-10">
             <button class="hamburger hamburger--squeeze " type="button">
                 <span class="hamburger-box ">
                     <span class="hamburger-inner"></span>
@@ -31,37 +32,67 @@
           </span>
         </div>
     
-        <ul class="md:flex md:items-center md:static md:visible md:w-auto md:py-0 md:opacity-100 md:pl-0 md:translate-y-0 absolute overflow-hidden h-full bg-white w-full left-0 py-4 pl-7 opacity-0 transform -translate-y-full transition-all duration-[400ms]
-          text-black text-center ">
+        <ul class="font-lato md:flex md:items-center md:static md:visible md:w-auto md:py-0 md:opacity-100 md:pl-0 md:translate-y-0 md:h-auto h-[100vh] absolute overflow-hidden bg-white w-full left-0 py-4 pl-7 opacity-0 transform -translate-y-full transition-all duration-[400ms]
+          text-gray-700 text-center ">
           <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="text-2xl">HOME</a>
+            <a href="#" class="md:text-md text-xl">HOME</a>
           </li>
           <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="text-2xl">SERVICE</a>
+            <a href="#" class="md:text-md text-xl">SERVICE</a>
           </li>
           <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="text-2xl">ABOUT</a>
+            <a href="#" class="md:text-md text-xl">ABOUT</a>
           </li>
           <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="text-2xl">CONTACT</a>
+            <a href="#" class="md:text-md text-xl">CONTACT</a>
           </li>
           <li class="mx-4 my-12 md:my-0 ">
-            <a href="#" class="text-2xl">BLOG'S</a>
+            <a href="#" class="md:text-md text-xl">BLOG'S</a>
           </li>
         </ul>
 
     </nav>
     
 
-    <section class="">
-        <div class="text-center mt-12">
-            <h1 class="font-satisfy text-5xl">My Gallery</h1>
-            <div class="bg-gradient-to-r from-violet-500 to-pink-500 h-1 mt-[-3px] w-40 mx-auto rounded-full"></div>
+    <section class="flex flex-col justify-center items-center text-center">
+        <div class=" mt-12">
+          <h1 class="font-satisfy text-5xl">My Gallery</h1>
+          <div class="bg-gradient-to-r from-violet-500 to-pink-500 h-1 mt-[2px] w-40 mx-auto rounded-full"></div>
         </div>
-        <div>
-            <div>
-
-            </div>
+        <!-- <div class="flex flex-row md:flex-nowrap flex-wrap justify-between items-start p-3 border border-pink-600">
+          <div class="flex flex-col md:w-[32.5%] w-[49%] ">
+            <img class="w-full pb-4" src="./assets/Images/1.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/2.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/3.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/4.jpg" alt="image">
+          </div>
+          <div class="flex flex-col md:w-[32.5%] w-[49%] ">
+            <img class="w-full pb-4" src="./assets/Images/5.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/6.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/7.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/8.jpg" alt="image">
+          </div>
+          <div class="flex flex-col md:w-[32.5%] w-[49%] clear-left">
+            <img class="w-full pb-4" src="./assets/Images/9.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/10.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/11.jpg" alt="image">
+            <img class="w-full pb-4" src="./assets/Images/12.jpg" alt="image">
+          </div>
+        </div> -->
+        <div class="grid md:grid-cols-4 my-7 auto-rows-auto grid-flow-dense mx-auto md:gap-5 gap-2 grid-cols-2">
+            <img class="w-full h-full object-cover md:col-span-3 shadow-md hover:scale-105 hover:brightness-75 transition" src="./assets/Images/1.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/2.jpg" alt="image">
+            <img class="w-full h-full object-cover object-right shadow-md" src="./assets/Images/3.jpg" alt="image">
+            <img class="w-full h-full shadow-md" src="./assets/Images/4.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/5.jpg" alt="image">
+            <img class="w-full h-full shadow-md" src="./assets/Images/6.jpg" alt="image">
+            <img class="w-full h-full shadow-md" src="./assets/Images/7.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/8.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/9.jpg" alt="image">
+            <img class="w-full h-full shadow-md" src="./assets/Images/10.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/11.jpg" alt="image">
+            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/12.jpg" alt="image">
+            <video autoplay muted loop src="./assets/Images/videoplayback.mp4"></video>
         </div>
     </section>
 
