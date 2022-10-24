@@ -2,102 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
-    <script src="./script.js" defer></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" />
-    <script src="https://kit.fontawesome.com/1a6cc81ef3.js" crossorigin="anonymous"></script>
-    <title>Rishabh Wala</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap"
+    rel="stylesheet"> -->
+  <script src="./script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" />
+  <script src="https://kit.fontawesome.com/1a6cc81ef3.js" crossorigin="anonymous"></script>
+  <title>Rishabh Wala</title>
 </head>
 
-<body class="bg-white text-blue-500 h-screen md:p-8 p-5 overflow-x-hidden">
-    <nav class="p-5 bg-white md:flex md:items-center md:justify-between ">
-        <div class="flex justify-between items-center">
-          <span class=" font-satisfy cursor-pointer flex justify-center items-center">
-            <img class="h-20 inline" src="./assets/Kirti+Logo.png">
-            <span class="ml-6 text-4xl inline items-center max-[870px]:hidden mt-1 ">Rishabh wala</span>
+<body class=" bg-white text-blue-500 h-screen md:p-8 p-5 overflow-x-hidden">
+  <nav class="p-5 bg-white md:flex md:items-center md:justify-between ">
+    <div class="flex justify-between items-center">
+      <span class=" cursor-pointer flex justify-center items-center">
+        <img class="h-20 inline" src="./assets/Images/Kirti+Logo.png">
+        <span class="font-montserrat ml-6 text-4xl inline items-center max-[870px]:hidden mt-1 ">Rishabh Wala</span>
+      </span>
+
+      <span class="relative cursor-pointer md:hidden block z-10">
+        <button class="hamburger hamburger--squeeze " type="button">
+          <span class="hamburger-box ">
+            <span class="hamburger-inner"></span>
           </span>
-    
-          <span class="relative cursor-pointer md:hidden block z-10">
-            <button class="hamburger hamburger--squeeze " type="button">
-                <span class="hamburger-box ">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>  
-          </span>
-        </div>
-    
-        <ul class="font-lato md:flex md:items-center md:static md:visible md:w-auto md:py-0 md:opacity-100 md:pl-0 md:translate-y-0 md:h-auto h-[100vh] absolute overflow-hidden bg-white w-full left-0 py-4 pl-7 opacity-0 transform -translate-y-full transition-all duration-[400ms]
+        </button>
+      </span>
+    </div>
+
+    <ul class="font-lato md:flex md:items-center md:static md:visible md:w-auto md:py-0 md:opacity-100 md:pl-0 md:translate-y-0 md:h-auto h-[100vh] absolute overflow-hidden bg-white w-full left-0 py-4 pl-7 opacity-0 transform -translate-y-full transition-all duration-[400ms]
           text-gray-700 text-center ">
-          <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="md:text-md text-xl">HOME</a>
-          </li>
-          <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="md:text-md text-xl">SERVICE</a>
-          </li>
-          <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="md:text-md text-xl">ABOUT</a>
-          </li>
-          <li class="mx-4 my-12 md:my-0">
-            <a href="#" class="md:text-md text-xl">CONTACT</a>
-          </li>
-          <li class="mx-4 my-12 md:my-0 ">
-            <a href="#" class="md:text-md text-xl">BLOG'S</a>
-          </li>
-        </ul>
+      <li class="mx-4 my-12 md:my-0">
+        <a href="#" class="md:text-md text-xl">HOME</a>
+      </li>
+      <li class="mx-4 my-12 md:my-0">
+        <a href="#" class="md:text-md text-xl">SERVICE</a>
+      </li>
+      <li class="mx-4 my-12 md:my-0">
+        <a href="#" class="md:text-md text-xl">ABOUT</a>
+      </li>
+      <li class="mx-4 my-12 md:my-0">
+        <a href="#" class="md:text-md text-xl">CONTACT</a>
+      </li>
+      <li class="mx-4 my-12 md:my-0 ">
+        <a href="#" class="md:text-md text-xl">BLOG'S</a>
+      </li>
+    </ul>
 
-    </nav>
-    
-
-    <section class="flex flex-col justify-center items-center text-center">
-        <div class=" mt-12">
-          <h1 class="font-satisfy text-5xl">My Gallery</h1>
-          <div class="bg-gradient-to-r from-violet-500 to-pink-500 h-1 mt-[2px] w-40 mx-auto rounded-full"></div>
-        </div>
-        <!-- <div class="flex flex-row md:flex-nowrap flex-wrap justify-between items-start p-3 border border-pink-600">
-          <div class="flex flex-col md:w-[32.5%] w-[49%] ">
-            <img class="w-full pb-4" src="./assets/Images/1.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/2.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/3.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/4.jpg" alt="image">
-          </div>
-          <div class="flex flex-col md:w-[32.5%] w-[49%] ">
-            <img class="w-full pb-4" src="./assets/Images/5.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/6.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/7.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/8.jpg" alt="image">
-          </div>
-          <div class="flex flex-col md:w-[32.5%] w-[49%] clear-left">
-            <img class="w-full pb-4" src="./assets/Images/9.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/10.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/11.jpg" alt="image">
-            <img class="w-full pb-4" src="./assets/Images/12.jpg" alt="image">
-          </div>
-        </div> -->
-        <div class="grid md:grid-cols-4 my-7 auto-rows-auto grid-flow-dense mx-auto md:gap-5 gap-2 grid-cols-2">
-            <img class="w-full h-full object-cover md:col-span-3 shadow-md hover:scale-105 hover:brightness-75 transition" src="./assets/Images/1.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/2.jpg" alt="image">
-            <img class="w-full h-full object-cover object-right shadow-md" src="./assets/Images/3.jpg" alt="image">
-            <img class="w-full h-full shadow-md" src="./assets/Images/4.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/5.jpg" alt="image">
-            <img class="w-full h-full shadow-md" src="./assets/Images/6.jpg" alt="image">
-            <img class="w-full h-full shadow-md" src="./assets/Images/7.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/8.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/9.jpg" alt="image">
-            <img class="w-full h-full shadow-md" src="./assets/Images/10.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/11.jpg" alt="image">
-            <img class="w-full h-full object-cover col-span-2 shadow-md" src="./assets/Images/12.jpg" alt="image">
-            <video autoplay muted loop src="./assets/Images/videoplayback.mp4"></video>
-        </div>
-    </section>
+  </nav>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <section class="flex flex-col justify-center items-center text-center ">
+    <div class=" mt-12">
+      <h1 class="font-montserrat font-semibold text-5xl">My Gallery</h1>
+      <div class="bg-gradient-to-r from-violet-500 to-pink-500 h-1 mt-4 max-w-40 mx-auto rounded-full"></div>
+    </div>
+    <!-- <div class="grid md:grid-cols-3 mt-7 auto-rows-auto grid-flow-dense mx-auto md:gap-5 gap-2 grid-cols-2">
+      <img class="w-full h-full shadow-md hover:scale-105 hover:brightness-75 transition"
+        src="./assets/Images/" alt="image">
+        <img class="w-full h-full shadow-md col-span-2" src="./assets/Images/13.jpg" alt="">
+      <img class="w-full h-full shadow-md" src="./assets/Images/2.jpg" alt="image">
+      <img class="w-full h-full object-right shadow-md" src="./assets/Images/3.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/4.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/5.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/6.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/7.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/8.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/9.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/10.jpg" alt="image">
+      <img class="w-full h-full shadow-md" src="./assets/Images/11.jpg" alt="image">
+      <img class="w-full h-full shadow-md col-span-2" src="./assets/Images/12.jpg" alt="image">
+      <video autoplay muted loop src="./assets/Images/videoplayback.mp4"></video>
+    </div> -->
+    <div class="md:columns-4 md:gap-4 w-full md:space-y-4 columns-2 gap-2 space-y-2 border-2 mx-auto mt-6">
+      <div class="break-inside-avoid"><img src="./assets/Images/1" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/12.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/3.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/4.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/5.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/6.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/7.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/8.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/9.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/10.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/11.jpg" alt=""></div>
+      <div class="break-inside-avoid"><img src="./assets/Images/13.jpg" alt=""></div>
+      <div class="break-inside-avoid"><video autoplay muted loop src="./assets/Images/videoplayback.mp4"></video></div>
+    </div>
+
+  </section>
+
+  <footer class="py-8 px-8 mt-2 border-2 flex justify-between items-center text-[1.4rem] text-slate-800">
+    <div>
+      <h3>&copy; rishabhwala 2022</h3>
+    </div>
+    <div class="text-3xl">
+      <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 </body>
 
 </html>
